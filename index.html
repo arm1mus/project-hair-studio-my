@@ -5,76 +5,84 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HairStudioKremenchuk</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Raleway:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/styles.css"/>
 </head>
 <body>
-    <header>
-        <a href=""><img 
+    <header class="header">
+        <a class="header-logo" class="link" href=""><img 
             src="./img/logo.svg" 
             alt="лого сайта"
             width="270"
             height="445"
             />
         </a>
-        <nav>
-        <ul>
-            <li><a href="">Про нас</a></li>
-            <li><a href="">Наші послуги</a></li>
-            <li><a href="">Чарівні майстрині</a></li>
-            <li><a href="">Контакти</a></li>
+        <nav class="header-nav">
+        <ul class="list header-list">
+            <li class="header-item">
+                <a class="link header-link" href="">Про нас</a></li>
+            <li class="header-item">
+                <a class="link header-link" href="">Наші послуги</a></li>
+            <li class="header-item">
+                <a class="link header-link" href="">Чарівні майстрині</a></li>
+            <li class="header-item">
+                <a class="link header-link" href="">Контакти</a></li>
         </ul>
         </nav>
-        <a href="tel:+380686713867">+380686713867</a>
-        <button type="button">онлайн-запис</button> 
+        <a class="link header-tel" href="tel:+380686713867">+380686713867</a>
+        <button class="header-btn" type="button">онлайн-запис</button> 
     </header>
     <main>
         <section class="hero">
-            <ul>
-                <li><a href="" target="_blank" rel="noopener noreferre">Instagram</a></li>
-                <li><a href="" target="_blank" rel="noopener noreferre">Youtube</a></li>
+            <ul class="list hero-list">
+                <li class="hero-item"><a class="link hero-link" href="" target="_blank" rel="noopener noreferre">Instagram</a></li>
+                <li class="hero-item"><a class="link hero-link" href="" target="_blank" rel="noopener noreferre">Youtube</a></li>
             </ul>
-            <p>Студія краси та колористики в Кременчуці</p>
-            <h1 lang="en">HairStudio</h1>
-            <p>
+            <p class="hero-pre-title">Студія краси та колористики в Кременчуці</p>
+            <h1 lang="en" class="hero-title">HairStudio</h1>
+            <p class="hero-after-title">
                 Ми експерти у жіночих і чоловічих стрижках. Завжди в тренді сучасної колористики. Працюємо швидко, обережно та зі смаком.
             </p>
         </section>
-        <section>
-            <ul>
-                <li>
-                        <img 
-                        src="./img/photo_1.jpg" 
-                        alt="фен на столі"
-                        width="270"
-                        height="445"
-                        />
-                    </li>
-                    <li>
-                        <img 
-                        src="./img/photo_2.jpg" 
-                        alt="ножиці на столі"
-                        width="270"
-                        height="445"
-                        />
+        <section class="about">
+            <ul class="list about-list">
+                <li class="about-item">
+                    <img 
+                    src="./img/photo_1.jpg" 
+                    alt="фен на столі"
+                    width="270"
+                    height="445"
+                    />
+                </li>
+                <li class="about-item">
+                    <img 
+                    src="./img/photo_2.jpg" 
+                    alt="ножиці на столі"
+                    width="270"
+                    height="445"
+                    />
                 </li>
             </ul> 
-            <p>Про нас</p>
-            <h2>Найкращі колористи твого міста</h2>
-            <p>
+            <p class="about-pre-title">Про нас</p>
+            <h2 class="about-title">Найкращі колористи твого міста</h2>
+            <p class="about-after-title">
                 Якщо Ти бажаєш добавити в свій образ більше впевненості - 
                 тобі точно до Нас
             </p>
-            <p>
+            <p class="about-text">
                 Ми команда, яка ніколи не зупиняється на достигнутому і жадаємо змін. 
                 І коли ти попадаєш в руки наших майстринь то вже ніколи не зможеш бути 
                 попереднім. Ми команда яка завжди з клієнтом "на одній хвилі". Тому 
                 ми завжди готові удосконалювати кожного хто до нас прийде.
             </p>
-            <button type="button">онлайн-запис</button> 
+            <button type="button" class="about-btn">онлайн-запис</button> 
         </section>
         <section>
             <p>Проведи час в компанії кращих майстрів</p>
             <h2>Послуги та ціни</h2>
-            <ul>
+            <ul class="list">
                 <li>
                     <p>Чоловіча стрижка</p>
                     <p>200 грн.</p>
@@ -92,7 +100,7 @@
                     <p>200 грн.</p>
                 </li>
             </ul>
-            <ul>
+            <ul class="list">
                 <li>
                     <p>Жіноча стрижка</p>
                     <p>200 грн.</p>
@@ -113,7 +121,7 @@
             <button type="button">онлайн-запис</button>
         </section>
         <section>
-            <ul>
+            <ul class="list">
                 <li>
                     <span>30</span>
                     <p>Задоволиних клієнтів в день</p>
@@ -138,7 +146,7 @@
         <section>
             <p>Для настоящий поцінювачів атмосфери</p>
             <h2>Наші майстрині</h2>
-            <ul>
+            <ul class="list">
                 <li>
                     <img src="./img/alesya.jpg" alt="Musiyan Alesya" width="370" height="346"/>
                     <h3 lang="en">Musiyan Alesya</h3>
@@ -174,7 +182,7 @@
         <section>
             <h2 hidden>ГАЛЕРЕЯ</h2>
             <p>На англійскій мові "HairStudio" перекладається як "Студія волосся"</p>
-            <ul>
+            <ul class="list">
                 <li><img src="./img/galereya1.jpg" alt="галерея1" width="270" height="360"></li>
                 <li><img src="./img/galereya2.jpg" alt="галерея2" width="270" height="360"></li>
                 <li><img src="./img/galereya3.jpg" alt="галерея3" width="270" height="360"></li>
@@ -187,10 +195,10 @@
         <section>
             <h2>Контакти</h2>
             <address>
-                <ul>
-                    <li><a href="https://goo.gl/maps/u8PnpAs2jB3ENyYq5" target="_blank" rel="noopener noreferre">вул. Театральна, буд. 33</a></li>
-                    <li><a href="tel:+380686713867">+380686713867</a></li>
-                    <li><a href="mailto:hairstudiokrem@gmail.com">hairstudiokrem@gmail.com</a></li>
+                <ul class="list">
+                    <li><a class="link" href="https://goo.gl/maps/u8PnpAs2jB3ENyYq5" target="_blank" rel="noopener noreferre">вул. Театральна, буд. 33</a></li>
+                    <li><a class="link" href="tel:+380686713867">+380686713867</a></li>
+                    <li><a class="link" href="mailto:hairstudiokrem@gmail.com">hairstudiokrem@gmail.com</a></li>
                 </ul>
             </address>
             <b>Години праці</b>
@@ -199,9 +207,9 @@
     </main>
     <footer>
         <p>&copy; Copyright 2022</p>
-        <ul>
-            <li><a href="" target="_blank" rel="noopener noreferre">Instagram</a></li>
-            <li><a href="" target="_blank" rel="noopener noreferre">Youtube</a></li>
+        <ul class="list">
+            <li><a class="link" href="" target="_blank" rel="noopener noreferre">Instagram</a></li>
+            <li><a class="link" href="" target="_blank" rel="noopener noreferre">Youtube</a></li>
         </ul>
     </footer>
 </body>
